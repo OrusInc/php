@@ -57,7 +57,7 @@ The following set of guidelines describes the coding styles adhered to when craf
 ### Examples
 
 **if/else:**
-```
+```php
 if ($something)
 {
     return '...';
@@ -66,7 +66,7 @@ return '...';
 ```
 
 **`!`** operator
-```
+```php
 if ( ! $something)
 {
     return '...';
@@ -75,7 +75,7 @@ if ( ! $something)
 Always put braces around the body of an if clause, even if it is only one line long. You can also notice spaces around operators and after control statements. And please do not use the "endif" construct, and write "else if" as two words.
 
 **for:**
-```
+```php
 for ($ii = 0; $ii < 3; $ii++)
 {
     // ...
@@ -84,7 +84,7 @@ for ($ii = 0; $ii < 3; $ii++)
 Prefer $ii, $jj, $zz, etc., as iterators, because they're easier to pick out visually and they react better to "Find Next..." in editors.
 
 **foreach:**
-```
+```php
 foreach $map as $key => $value)
 {
     // ...
@@ -92,7 +92,7 @@ foreach $map as $key => $value)
 ```
 
 **arrays:**
-```
+```php
 $fruits = [
     'orange',
     'banana',
@@ -102,7 +102,7 @@ $fruits = [
 Use a trailing comma and put the closing parenthesis on a separate line so that diffs which add elements to the array affect only one line.
 
 **operators:**
-```
+```php
 $a + $b;                 // Put spaces around operators.
 $some . $thing;          // Put spaces around string concatenation.
 $bucket[] = $element;    // Couple [] with the array when appending.
@@ -110,7 +110,7 @@ $obj = new Fruit;        // Parentheses can be optional.
 ```
 
 **function/method definitions:**
-```
+```php
 function do_something($base_value, $additional_value)
 {
     return $base_value + $additional_value;
@@ -125,7 +125,7 @@ class Foo {
 ```
 
 **class**
-```
+```php
 class Student extends Person {
 
     const MAXIMUM_ATTEMPTS = 3;
