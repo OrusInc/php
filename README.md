@@ -1,10 +1,9 @@
 # Orus PHP Style Guidelines
 The Orus team PHP coding standards
 
+### Overview
 
 This document describes PHP Style Guidelines for Orus projects.
-
-### Overview
 
 The following set of guidelines describes the coding styles adhered to when crafting Orus's applications using PHP. Every member of the Orus team must follow these set of rules.
 
